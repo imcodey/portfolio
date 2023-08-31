@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mukesh-Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>About US</li>
+            </a>
+            <a href="#">
+                <li>Resume</li>
+            </a>
+            <a href="#">
+                <li>Contect US</li>
+            </a>
+        </ul>
+    </nav>
+    <!-- introduction -->
+    <div class="main">
+        <div class="detls">
+            <div class="name">
+                Mukesh Yaduvanshi
+            </div>
+            <div class="skill">
+                Frontend Developer
+            </div>
+        </div>
+        <div class="avtar">
+            <img src="./image/dp.png" alt="avtar">
+        </div>
+    </div>
+    <!-- About us -->
+    <div class="about">
+        <p class="abt-head">
+            <span class="move1">About US</span>
+        </p>
+        <p class="abt-contant">
+            <span>
+                <details open>
+                    <summary>About Me - Mukesh Yaduvanshi</summary>
+                    <p>
+                        Hello! 👋 I'm <a href="#" class="name1">Mukesh Yaduvanshi</a>, a passionate frontend developer with a knack for creating visually
+                        appealing and user-friendly web experiences. With a solid foundation in web technologies and a
+                        keen eye for design, I love bringing ideas to life on the digital canvas.
+                    </p>
+                </details>
+                <hr>
+                <details>
+                    <summary>My Journey</summary>
+                    <p>
+                        My journey in the world of web development began in Lockdown when I discovered my fascination
+                        for crafting pixel-perfect websites that seamlessly blend aesthetics with functionality. Since
+                        then, I've embarked on an exciting adventure, constantly expanding my skill set and keeping up
+                        with the ever-evolving landscape of frontend technologies.
+                    </p>
+                </details>
+                <hr>
+                <details>
+                    <summary>What I Do</summary>
+                    <p>
+                        My expertise lies in turning concepts and wireframes into responsive and interactive websites. I
+                        specialize in HTML, CSS, and JavaScript, and I'm well-versed in using modern frontend frameworks
+                        such as React,<!-- Vue, and Angular --> to build dynamic user interfaces. I believe that a website
+                        should not only look great but also provide an intuitive and enjoyable experience for the users.
+                    </p>
+                </details>
+                <hr>
+                <details>
+                    <summary>My Approach</summary>
+                    <p>
+                        I believe in a user-centered approach to development. Understanding the end-users and their
+                        needs is at the core of every project I undertake. I strive to create interfaces that are not
+                        just visually appealing but also highly usable and accessible to a diverse audience. Clean and
+                        maintainable code is essential to me, as it ensures that the project remains scalable and
+                        adaptable in the long run.
+                    </p>
+                </details>
+                <hr>
+                <details>
+                    <summary>Continuous Learning</summary>
+                    <p>
+                        In the rapidly evolving world of web development, staying up-to-date is crucial. I'm always
+                        excited to learn about new tools, libraries, and techniques that can enhance my craft. Whether
+                        it's delving into the latest CSS methodologies or experimenting with cutting-edge JavaScript
+                        features, I'm committed to refining my skills and applying them to create exceptional web
+                        experiences.
+                    </p>
+                </details>
+                <hr>
+                <details>
+                    <summary>Let's Connect</summary>
+                    <p>I'm not just passionate about code; I'm also enthusiastic about collaborating with fellow
+                        developers, designers, and clients. If you have a project in mind, want to discuss the latest
+                        industry trends, or simply want to geek out about web development, I'd love to hear from you.
+                        Feel free to reach out through <a href="mailto:myaduvanshi1508@gmail.com" target="_blank" class="name1">Gmail</a>. <br><br>
+
+                        Thank you for visiting my corner of the web. Let's build something amazing together!</p>
+                </details>
+                <hr>
+            </span>
+        </p>
+    </div>
+    <!-- contect -->
+    <div class="contect">
+        <p class="cont-head">
+            <span class="move1">Contect us</span>
+        </p>
+        <div class="cont-contant">
+            <!-- <form action="https://formsubmit.co/myaduvanshi1508@gmail.com" method="POST"> -->
+            <form action="https://formspree.io/f/xyyqjzda" method="POST">
+                <label for="fname">Name</label><br>
+                <input type="text" name="fname" id="fname" placeholder="Mukesh Yaduvanshi" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="example@.com" required><br>
+                <label for="tel">Phone No</label><br>
+                <input type="tel" maxlength="10" name="tel" id="tel" placeholder="0123456789" required>
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" placeholder="Address" required>
+                <label for="query">Message</label>
+                <!-- <input type="text" class="message" name="query" id="query" placeholder="Type your message..."> -->
+                <textarea class="message" name="query" id="query" cols="30" rows="10"></textarea>
+                <button class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="vision">
+        <div class="card">
+            <img src="./image/tm.jpg" alt="">
+            <span>Team Management</span>
+        </div>
+        <div class="card">
+            <img src="./image/prosolving.png" alt="">
+            <span>Problem Solving</span>
+        </div>
+        <div class="card">
+            <img src="./image/trust.png" alt="">
+            <span>User Trust</span>
+        </div>
+        <div class="card">
+            <img src="./image/usrsetifi.png" alt="">
+            <span>User Satisfaction</span>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <h3>Follow Me on Social Media:</h3>
+        <a href="">
+            <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
+        </a>
+        <a href="">
+            <img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
+        </a>
+        <a href="">
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/git.png" alt="git"/>
+        </a>
+        <br>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
