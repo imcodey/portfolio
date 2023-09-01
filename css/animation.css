@@ -1,8 +1,8 @@
 .avtar img{
-    animation: move 4s infinite ease-in-out;
+    animation: move 2s infinite ease-in-out;
 }
 .avtar::after,.avtar::before{
-    animation: move 2s infinite ease-in-out;
+    animation: move 1.4s infinite ease-in-out;
 }
 @keyframes move {
     0%,100%{
